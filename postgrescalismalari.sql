@@ -97,6 +97,49 @@ GROUP BY country_id
 ORDER BY COUNT(*) DESC
 LIMIT 1; */
 
+SEKİZİNCİ ÖDEV
+/*UPDATE employee
+SET name = 'Arlette Slade'
+WHERE id = 1;
+
+UPDATE employee
+SET birthday = '1980-11-21'
+WHERE id = 7;
+
+UPDATE employee
+SET email = 'bcustard1@vk.com'
+WHERE id = 23;
+
+
+UPDATE employee
+SET name = 'Brit Trevain', 
+    email = 'btrevain18@topsy.com', 
+	birthday = '1978-01-05'
+WHERE id = 45;
+
+
+UPDATE employee
+SET name = 'Tamar Bus',  
+    email = 'tbusx@nydailynews.com', 
+	birthday = '1957-05-10'
+WHERE id = 34
+RETURNING *;
+
+
+DELETE FROM employee
+WHERE id = 11
+RETURNING *;
+
+
+DELETE FROM employee
+WHERE id IN (3, 8, 29)
+RETURNING *;
+
+DELETE FROM employee
+WHERE name LIKE 'Iago%'
+RETURNING *;
+*/
+
 
 
 
