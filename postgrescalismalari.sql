@@ -153,6 +153,16 @@ SELECT rental_id, first_name, last_name FROM rental
 INNER JOIN customer ON rental.customer_id = customer.customer_id;
 */
 
+ONUNCU ÖDEV
+/*SELECT city, country FROM country
+LEFT JOIN city ON city.country_id = country.country_id; 
+
+SELECT first_name, last_name, payment_id FROM payment
+
+SELECT rental_id, first_name, last_name FROM customer
+FULL JOIN rental ON customer.customer_id = rental.customer_id; 
+*/
+
 
 
 
